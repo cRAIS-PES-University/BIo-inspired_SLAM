@@ -1,3 +1,6 @@
+
+## Spike neural network based odometry
+
 1. **Neural Network Architecture**:  use a Spiking Neural Network (SNN) that utilizes the Spike Response Model (SRM) for temporal dynamics. The network will have several convolutional layers configured to process spatiotemporal data effectively, modeled after the structure in the `cnn_avg_fc1.py` script combined with principles from the `base.py`.
 
 2. **Data Handling**: We'll integrate the handling of both event data and optical flow data. This involves preprocessing the data to fit the input requirements of the SNN, ensuring that event data is converted using voxel grids or similar techniques and optical flow is processed to provide motion cues.
